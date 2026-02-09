@@ -1,4 +1,4 @@
-# Task 4.2: Complete README with ACTUAL Results (α=1.0, Bias=45.17x)
+# Task 4.2
 
 readme_content = """# Audit 02: Deconstructing Statistical Lies
 
