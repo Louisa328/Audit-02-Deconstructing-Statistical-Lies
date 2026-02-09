@@ -254,31 +254,3 @@ Survivor:    45.17x bias (graveyard excluded)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
----
-
-*"Survivorship bias: Because dead tokens don't write Medium posts about their failure."*
-
-**Status:** ✅ Complete | **Date:** February 2026 | **License:** MIT
-"""
-
-# Save to file
-with open('README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("✅ Complete README.md generated with ACTUAL results!")
-print("\n" + "="*80)
-print("CRYPTO BIAS REPORT (Alpha=1.0)")
-print("="*80)
-print(f"Reality (Mean of ALL):         $79,605.44")
-print(f"Perception (Mean of Top 1%):   $3,595,557.50")
-print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print(f"BIAS MAGNIFICATION:            45.17x")
-print("="*80)
-print("\nAll 4 Topics Included:")
-print("  1. Latency Skew:       SD/MAD = 38.75x")
-print("  2. False Positive:     P(C|F) = 4.67%")
-print("  3. SRM Detection:      χ² = 2.5 (valid)")
-print("  4. Survivorship Bias:  45.17x overestimation")
-print("="*80)
-print("\n📄 File saved as: README.md")
-print(f"📊 Total length: {len(readme_content):,} characters")
